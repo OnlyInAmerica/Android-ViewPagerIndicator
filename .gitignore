@@ -21,3 +21,9 @@ pom.xml.*
 local.properties
 build.xml
 proguard-project.txt
+
+#Android Studio
+library/build/
+
+#Mac OS
+.DS_Store
