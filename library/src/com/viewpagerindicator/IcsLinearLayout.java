@@ -39,7 +39,7 @@ public class IcsLinearLayout extends LinearLayout {
         mDividerPadding = a.getDimensionPixelSize(LL_DIVIDER_PADDING, 0);
         mShowDividers = a.getInteger(LL_SHOW_DIVIDER, SHOW_DIVIDER_NONE);
         a.recycle();
-    }
+    } 
 
     public void setDividerDrawable(Drawable divider) {
         if (divider == mDivider) {
